@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ScrollPane?>
+
+<HBox fx:id="root" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.htwsaar.owlkeeper.ui.controllers.partials.TeamController">
+   <children>
+      <ScrollPane fitToWidth="true" HBox.hgrow="ALWAYS">
+         <content>
+            <VBox fx:id="team" styleClass="main">
+              <!-- Gets filled by the controller -->
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+   <!-- Sidebar gets injected through the controller -->
+</HBox>

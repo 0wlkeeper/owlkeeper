@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20.0" styleClass="navigation" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.htwsaar.owlkeeper.ui.controllers.partials.NavigationProjectsController">
+   <children>
+       <VBox styleClass="drop-nav">
+          <children>
+              <HBox fx:id="main" alignment="CENTER_LEFT">
+                <!-- Gets filled in NavigationProjectsController -->
+              </HBox>
+              <VBox fx:id="root" styleClass="drop-nav__items">
+                <!-- Gets filled in NavigationProjectsController -->
+            </VBox>
+          </children>
+       </VBox>
+   </children>
+</VBox>
